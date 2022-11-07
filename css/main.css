@@ -1,0 +1,33 @@
+body{
+    background: #E6E6E6;
+    margin: 0px;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box_1{
+   
+    width: 80%;
+    height: 400px;
+    margin: 110px auto;
+   
+}
+.box_1 > .child{
+    width: 29%;
+    height: 100%;
+   
+    float: left;
+    background: #FFFFFF;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+  
+}
+:nth-child(2){
+    margin: 0px 45px;
+}
+#a1{
+    text-align: center;
+}
+li{
+    text-decoration: underline;
+    margin: 10px 10px;
+}
